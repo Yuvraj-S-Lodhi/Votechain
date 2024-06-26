@@ -7,6 +7,6 @@ SHA256 is a cryptographic hash function which returns a 256 bits number when app
 In this manner block start linking and forms a blockchain. If any block is manipulated then its hash will change and it will change hash of all subsequent blocks and whole blockchain will become invalid. This algorithm of creating blocks and validation of blockchain is called proof of work.<br>
 In this way this Votechain system will work.<br>
 ## Checkpoint
-The implementation plan for Votechain is build and the required classes are initiallized. The following files are uploaded:<br>
+The implementation plan for Votechain is built and the required classes are initiallized. The following files are uploaded:<br>
 block.py: contains the 'block' class for creating and managing individual blocks in the blockchain<br>
 blockchain.py: contains the 'blockchain' class for managing chain of blocks and handling vote mining<br>
